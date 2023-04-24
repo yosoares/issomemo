@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+    margin: 100px 140px;
+    color: #d8bb16;
+    width: 200px;
+    padding: 30px 56px;
+    background-color: #000000bc;
+    box-shadow: 12px 9px 3px 0px #c99e03fa;
+}
+
+.button {
+    background-color: #000000;
+    box-shadow: 2px 2px 4px 1px #e3c101fa;
+    margin: 20px 0px 12px 100px;
+    padding: 7px 20px;
+    border: 0ch;
+    transition: background 0.4s;
+    color: white;
+}
+
+button:hover,
+button:focus {
+    background: #d8bb16;
+
+}
+
+.caixinha {
+    background-color: #d8bb16;
+    border: 0ch;
+    margin: 3px;
+}
