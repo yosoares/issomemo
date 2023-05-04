@@ -6,53 +6,86 @@ body {
     font-weight: bold;
 }
 
-.container {
+.rodape {
+    background-color: #242421;
+    margin: 12px;
     display: flex;
-    justify-content: space-around;
+    height: 200px;
+    top: 1900px;
+    bottom: 0px;
+    font-size: x-small;
+    width: 150%;
     padding: 0px;
-    background-color: #000000;
-    text-align: center;
-    color: #000000;
+    position: absolute;
+    top: 2000px;
+    right: 0px;
+    bottom: 10px;
 }
 
-.Feminino,
-.Esporte,
-.Roupas {
-    color: #df8d14;
-    font-size: 16px;
-    border: none;
+.carrocentro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+
+}
+
+.carrocentro img {
+    width: 50%;
+}
+
+
+.whey img {
+    width: 40px;
+    margin: 12px;
+}
+
+.face img {
+    width: 40px;
+    margin: 12px;
+}
+
+.insta img {
+    justify-content: space-around;
+    width: 40px;
+    margin: 12px;
+}
+
+.containersp {
+    display: flex;
+    justify-content: space-around;
+    margin: 1px;
+    height: 150px;
+    background-color: #000000;
+    color: #000000;
+    width: 100%;
+    border-left: solid 2px rgba(255, 0, 0, 0);
 }
 
 .css {
-    display: flex;
-    justify-content: space-around;
-    padding: 22px;
+    padding: 2px;
     background-color: #000000;
-    text-align: center;
     font-size: 28px;
     color: #000000;
-    position: relative, fixed;
+    position: relative;
     display: inline-block;
-    text-decoration: none;
-
+    justify-content: center;
+    width: 120px;
+    margin-left: 18px;
 }
+
 
 .css a {
     text-decoration: none;
     color: #eef132;
     font-size: 13px;
     font-weight: bold;
-
     margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-
 }
 
-.container a {
+.containersp a {
     color: #eef132;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: bold
 }
 
@@ -62,7 +95,6 @@ body {
     background-color: #302f2e;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px #0a0a09;
-    z-index: 1;
 }
 
 .dropdown-content a {
@@ -107,22 +139,46 @@ body {
     font-size: 30px;
     margin: 10px;
     padding: 20px;
-    background-color: brown;
+    background-color: rgba(165, 42, 42, 0);
     text-align: center;
 }
 
 .corre img {
     align-items: center;
-    width: 70%;
-    position: relative;
+    /* width: 70%; */
+    /* position: relative; */
+}
+
+.corre {
+    border: 2px solid rgba(0, 128, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speed {
+    display: flex;
+    justify-content: center;
 }
 
 .speed img {
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    padding: 15px;
+    padding: 1px;
+    margin: 20px;
     display: flex;
+    display: inline-block;
+}
+
+.treinos img {
+    width: 120px;
+    display: inline-block;
+}
+
+.treino_1,
+.treino_2 {
+
     display: inline-block;
 }
 
@@ -150,4 +206,14 @@ body {
     height: 100%;
     width: 100%;
     vertical-align: top;
+}
+
+.imagem {
+    background-image: url(https://github.com/);
+    transition: .5s;
+    /* Transição de 500ms para deixar suave */
+}
+
+.imagem:hover {
+    background-image: url(https://github.com/);
 }

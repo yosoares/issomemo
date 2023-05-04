@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(36, 36, 33);
+    background-color: rgb(54, 54, 51);
     font-style: Times New Romans;
 }
 
@@ -8,4 +8,33 @@ body {
     height: auto;
     border: 1px;
     color: rgb(226, 118, 29);
+}
+
+.rodape {
+    background-color: #242421;
+    margin: 12px;
+    display: flex;
+    height: 200px;
+    position: absolute;
+    top: 1900px;
+    left: -10px;
+    bottom: 0px;
+    font-size: x-small;
+    width: 150%;
+    padding: 0px;
+    position: absolute;
+    top: 2000px;
+    right: 0px;
+    bottom: 10px;
+}
+
+.face img {
+    width: 40px;
+    margin: 12px;
+}
+
+.insta img {
+    justify-content: space-around;
+    width: 40px;
+    margin: 12px;
 }

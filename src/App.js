@@ -1,13 +1,14 @@
 import Rotas from './routes'
 import './index.css'
+import './Components/Header/estilo.css'
 
 
 function App() {
 
   return (
-    <div>
-      <Rotas />
-    </div>
+
+    <Rotas />
+
   );
 }
 

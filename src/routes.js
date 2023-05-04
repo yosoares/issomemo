@@ -22,6 +22,7 @@ import Bone from './pages/Feminino/Bone'
 import Papo from './pages/Icon/papo'
 import Treino from './pages/Treino'
 import Casual from './pages/Casual'
+import Speed from './pages/speed'
 
 
 export default function Rotas() {
@@ -51,6 +52,7 @@ export default function Rotas() {
                 <Route path='/Papo' element={<Papo />} />
                 <Route path='/Treino' element={<Treino />} />
                 <Route path='/Casual' element={<Casual />} />
+                <Route path='/Speed' element={<Speed />} />
             </Routes>
         </BrowserRouter>
     )
